@@ -61,14 +61,6 @@ nav ul button:hover{
 }
 
 /* HEADER */
-header{
-    background-color: rgb(73, 73, 73);
-    display: inline-block;
-    width: 100%;
-    height: 580px;
-    position: relative;
-    text-align: center;
-}
 
 #header{
     width: 100%;
@@ -78,16 +70,16 @@ header{
 }
 
 header h1{
-   position: absolute;
-  bottom: 120px;
+  position: absolute;
+  bottom: 380px;
   left: 120px;
   color: white;
   font-size: 78px;
 }
 
 header p{
-     position: absolute;
-  bottom: 80px;
+  position: absolute;
+  bottom: 340px;
   left: 120px;
   color: white;
   font-size: 38px;
