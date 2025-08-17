@@ -92,17 +92,58 @@ header p {
 
 /* ===== MAIN ===== */
 main {
-    background-color: aqua;
+    background-color: rgb(43, 43, 43);;
     padding: 40px 20px;
     text-align: center;
 }
 
 /* ===== FOOTER ===== */
 footer {
-    background-color: blue;
+    background-color: rgb(39, 39, 39);
     color: white;
     padding: 40px 20px;
-    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    text-align: left;
+}
+
+
+.footer-box {
+    font-size: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.footer-box h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-box li {
+    margin-bottom: 5px;
+}
+
+.footer-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-box a:hover {
+    text-decoration: underline;
+}
+
+#Contact{
+    width: 50px;
+    height: 50px;
+    transition: 1.1s;
+}
+
+#Contact:hover{
+    scale: 1.1;
 }
 
 /* ===== RESPONSIVE ===== */
@@ -135,4 +176,24 @@ footer {
         bottom: 25%;
         left: 5%;
     }
+}
+
+.outerbox {
+    width: 100%;
+}
+
+p {
+    color: white;
+}
+
+.box1 {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#ibox {
+    width: 100%;       
+    max-width: 850px;  
+    height: auto;       
 }
